@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaReact, FaBars } from "react-icons/fa";
 import { HiX } from "react-icons/hi";
 import { navMenus } from "./config";
+import { FaYinYang } from "react-icons/fa";
 import "./styles.scss";
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -14,7 +15,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar__container">
           <Link to={"/"} className="navbar__container__logo">
-            <FaReact size={30} />
+            <FaYinYang size={40} />
           </Link>
           <ul
             className={

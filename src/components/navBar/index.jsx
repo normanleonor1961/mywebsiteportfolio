@@ -15,7 +15,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar__container">
           <Link to={"/"} className="navbar__container__logo">
-            <FaYinYang size={40} />
+            <FaYinYang size={50} />
           </Link>
           <ul
             className={

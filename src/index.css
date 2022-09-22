@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
 :root {
   --selected-theme-background-color: var(--yellow-theme-background-color);
   --selected-theme-main-color: var(--yellow-theme-main-color);
@@ -11,6 +13,8 @@
   --yellow-theme-main-color: #ffdd40;
   --yellow-theme-sub-text-color: #ffffff;
   --yellow-theme-nav-background-color: #2b1a74;
+
+  --font-base: "Robot Slab", serif;
 }
 
 * {
@@ -21,14 +25,14 @@
 }
 
 html {
-  font-size: 85.5%;
+  font-size: 62.5%;
   height: 100%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 body {
-  background: var(--selected-theme-sub-text-color);
+  background: var(--selected-theme-background-color);
   height: 100%;
 }
 

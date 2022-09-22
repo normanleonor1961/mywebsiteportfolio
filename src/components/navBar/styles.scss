@@ -43,19 +43,21 @@
           width: 100%;
           background: var(--selected-theme-main-color);
         }
-
         &__links {
           color: var(--selected-theme-main-color);
           text-decoration: none;
           padding: 0.5rem 1rem;
         }
       }
-
       &__item:last-child {
         margin: 0px;
       }
     }
   }
+}
+
+.nav-icon {
+  display: none;
 }
 
 @media only screen and (max-width: 768px) {

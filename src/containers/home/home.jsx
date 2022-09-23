@@ -6,13 +6,10 @@ import MyCv from "./norman_cv.pdf";
 
 const Homes = () => {
   return (
-    <div
-      className="container-fluid sidebar-section home-section home"
-      id="home"
-    >
-      <div className="container home-content">
+    <div className="sidebar-section home-section home" id="home">
+      <div className="home-content">
         <div className="bk-picture">
-          <h1>I am a</h1>
+          <h1>Hi, I'm Norman and I am a</h1>
           <h2>
             <Typewriter
               options={{
@@ -30,8 +27,8 @@ const Homes = () => {
           </h2>
           <Animate
             play
-            duration={1.5}
-            delay={1}
+            duration={1}
+            delay={0.5}
             start={{ transform: "translateY(600px)" }}
             end={{ transform: "translatex(0px)" }}
           >

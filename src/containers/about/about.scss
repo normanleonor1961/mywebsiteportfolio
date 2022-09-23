@@ -1,0 +1,24 @@
+.about-image img {
+  height: 400px;
+  width: 400px;
+  border-radius: 190px;
+  margin-top: 50px;
+  border: 5px solid yellow;
+  margin: 50px;
+}
+
+.about-section {
+  display: grid;
+  margin-top: 100px;
+  color: white;
+  font-size: 15px;
+
+  box-shadow: 18px 23px 37px -7px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 18px 23px 37px -7px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 18px 23px 37px -7px rgba(0, 0, 0, 0.22);
+}
+
+.about-details {
+  margin-top: 50px;
+  width: auto;
+}
